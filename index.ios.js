@@ -4,15 +4,17 @@
 
 import React  from 'react';
 import {Text ,AppRegistry } from 'react-native';
+import Header from './src/components/Header'
 
 
 // Create Component 
 
-const App = ()=>(<Text> this is a test  </Text>)
+const App = ()=>(   <Header /> )
 
 
 // Render It to Device 
 AppRegistry.registerComponent('Albums', () => App);
+
 
 // export default class Albums extends Component {
 //   render() {
