@@ -5,13 +5,13 @@ import ReactNative , {Text, View} from 'react-native'
 // make a componxtent
 
 
-const Header =()=>{
+const Header =(props)=>{
 
     const {textStyle,ViewStyle} = styles;
 
     return (
         <View style={ViewStyle}> 
-            <Text style={textStyle} > Albums </Text>
+            <Text style={textStyle} > {props.title}</Text>
         </View>
         
     )
